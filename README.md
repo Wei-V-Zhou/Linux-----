@@ -37,6 +37,14 @@ The following scripts of Linux are what I have learned after class. ***BUT***, I
 **remove** filefolder:`rm -r filer_folder1` or `rmdir file_folder11`
 ; **remove** file:`rm file11`
 
+### 1.2 View and Edit File
+**1. View file**
+
+***(1)***
+**view** file directly:`cat file1`&nbsp;&nbsp;#  view all file
+; **view** file added row number:`cat -n file1`&nbsp;&nbsp;#  view all file added row number
+
+**view** file conversely:`tac file1`&nbsp;&nbsp;#  view all file conversely
 
 
 
