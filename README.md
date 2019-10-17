@@ -18,18 +18,23 @@ The following scripts of Linux are what I have learned after class. ***BUT***, I
 
 **2. Operate file_folder & file**
 
-**(1)make** new filefolder:`mkdir file_folder1`
+***(1)***
+**make** new filefolder:`mkdir file_folder1`
 ; **make** new file:`touch file1`
 
-**(2)copy** old filefolder:`cp -r file_folder1 file_folder2`
+***(2)***
+**copy** old filefolder:`cp -r file_folder1 file_folder2`
 ; **copy** old file:`cp file1 file2`
 
-**(3)rename** old filefolder:`mv file_folder2 file_folder11`
+***(3)***
+**rename** old filefolder:`mv file_folder2 file_folder11`
 ; **rename** old file:`mv file2 file11`
 
-**(4)move** file to filefolder:`mv file11 file_folder11`
+***(4)***
+**move** file to filefolder:`mv file11 file_folder11`
 
-**(5)remove** filefolder:`rm -r filer_folder1` or `rmdir file_folder11`
+***(5)***
+**remove** filefolder:`rm -r filer_folder1` or `rmdir file_folder11`
 ; **remove** file:`rm file11`
 
 
