@@ -5,7 +5,7 @@
 
 **Written in Front:**
 
-The following scripts of Linux are what I have learned after class. ***BUT***, I think it's very necessary for me to share them with u (just like the papa of Linux). 
+The following scripts of Linux are what I have learned after class. ***BUT***, I think it's very necessary for me to share them with u (just like the papa of Linux said). 
 ---
 
 ## 1. Basic Scripts for Linux
@@ -14,6 +14,9 @@ The following scripts of Linux are what I have learned after class. ***BUT***, I
 
 `cd ../`&nbsp;# return the directory up one level
 
+(```)
+ls -l  # 
+(```)
 
 ## 2. Advanced Scripts for Linux
 
