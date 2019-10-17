@@ -10,13 +10,13 @@ The following scripts of Linux are what I have learned after class. ***BUT***, I
 
 ## 1. Basic Scripts for Linux
 ### 1.1 Dir and File Operation
-**1. Operate directory
+**1. Operate directory**
 
 `cd ~/linux`&nbsp;&nbsp;#  using `cd ~/file` is very convenient for entering into ***any directory***
 
 `cd ../`&nbsp;&nbsp;#  return the directory up one level
 
-**2. Operate file_folder & file
+**2. Operate file_folder & file**
 
 Make new filefolder:`mkdir file_folder1`
 
