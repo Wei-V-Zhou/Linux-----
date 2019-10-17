@@ -10,13 +10,13 @@ The following scripts of Linux are what I have learned after class. ***BUT***, I
 
 ## 1. Basic Scripts for Linux
 ### 1.1 Dir and File Operation
-**1. Operate directory**
+**1.1.1 Operate directory**
 
 `cd ~/linux`&nbsp;&nbsp;#  using `cd ~/file` is very convenient for entering into ***any directory***
 
 `cd ../`&nbsp;&nbsp;#  return the directory up one level
 
-**2. Operate file_folder & file**
+**1.1.2. Operate file_folder & file**
 
 ***(1)***
 **make** new filefolder:`mkdir file_folder1`
@@ -38,7 +38,7 @@ The following scripts of Linux are what I have learned after class. ***BUT***, I
 ; **remove** file:`rm file11`
 
 ### 1.2 View and Edit File
-**1. View file**
+**1.2.1. View file**
 
 ***(1)***
 **view** file directly:`cat file1`&nbsp;&nbsp;#  view all file
@@ -46,8 +46,13 @@ The following scripts of Linux are what I have learned after class. ***BUT***, I
 
 **view** file conversely:`tac file1`&nbsp;&nbsp;#  view all file conversely
 
-
-
+***(2)***
+**view file added row number:**
+```
+nl file1  #  view rows including null rows
+nl -b a file1  #  view rows with null rows
+nl -b a -n rz file1  #  view rows with null rows and 000... number
+nl -b a -n rz -w 3 file1  #  view rows with null rows and total 3 numbers
 ```
 ls -l  # check the file authority
 ```
