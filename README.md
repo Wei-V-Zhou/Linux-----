@@ -68,7 +68,7 @@ less file1  #  view files and turn pages
 ```
 
 ***(4)***
-**Select file:**
+**select file:**
 ```
 head file1  #  select files with the first 10 rows
 head -n 20 file1  #  select files with the first 20 rows
