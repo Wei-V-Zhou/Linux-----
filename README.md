@@ -22,12 +22,12 @@ Make new filefolder:`mkdir file_folder1`
 
 Make new file:`touch file1`
 
----
+-
 Copy old filefolder:`cp -r file_folder1 file_folder2`
 
 Copy old file:`cp file1 file2`
 
----
+--
 Rename old filefolder:`mv file_folder2 file_folder11`
 
 Rename old file:`mv file2 file11`
