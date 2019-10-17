@@ -14,7 +14,7 @@ The following scripts of Linux are what I have learned after class. ***BUT***, I
 
 >`cd ~/linux`&nbsp;&nbsp;#  using `cd ~/file` is very convenient for entering into ***any directory***
 
->`cd ../`&nbsp;&nbsp;#  return the directory up one level
+`cd ../`&nbsp;&nbsp;#  return the directory up one level
 
 **2. Operate file_folder & file**
 
