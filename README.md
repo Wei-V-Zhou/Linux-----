@@ -14,9 +14,9 @@ The following scripts of Linux are what I have learned after class. ***BUT***, I
 
 `cd ../`&nbsp;&nbsp;#  return the directory up one level
 
-(```)
+```
 ls -l  # 
-(```)
+```
 
 ## 2. Advanced Scripts for Linux
 
