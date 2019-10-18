@@ -49,33 +49,39 @@ The following scripts of Linux are what I have learned after class. ***BUT***, I
 ***(2)***
 **view file added row number:**
 ```
-nl file1  #  view rows including null rows
-nl -b a file1  #  view rows with null rows
-nl -b a -n rz file1  #  view rows with null rows and 000... number
-nl -b a -n rz -w 3 file1  #  view rows with null rows and total 3 numbers
+nl file1                      #  view rows including null rows
+nl -b a file1                 #  view rows with null rows
+nl -b a -n rz file1           #  view rows with null rows and 000... number
+nl -b a -n rz -w 3 file1      #  view rows with null rows and total 3 numbers
 ```
 
 ***(3)***
 **view file added turned pages:**
 ```
-more file1  #  view files and turn pages
-# enter: next row; space: next page; /text: find text next;
-# :f: show filename and rows; ctrl+b: turn back; q: quit
+more file1                    #  view files and turn pages
+## enter: next row; space: next page; /text: find text next;
+## :f: show filename and rows; ctrl+b: turn back; q: quit
 
-less file1  #  view files and turn pages
-# space: next page; pgdn: next page; pgdn: last page; 
-# /text: find text next; ?text: find text last; q: quit
+less file1                    #  view files and turn pages
+## space: next page; pgdn: next page; pgdn: last page; 
+## /text: find text next; ?text: find text last; q: quit
 ```
 
 ***(4)***
 **select file:**
 ```
-head file1  #  select files with the first 10 rows
-head -n 20 file1  #  select files with the first 20 rows
-tail file1  #  select files with the last 10 rows
-tail -n 20 file1  #  select files with the last 20 rows
+head file1                    #  select files with the first 10 rows
+head -n 20 file1              #  select files with the first 20 rows
+tail file1                    #  select files with the last 10 rows
+tail -n 20 file1              #  select files with the last 20 rows
 ```
 
+***(5)***
+**edit file:**
+```
+cut -f 4 file                 #  get the fourth column
+cut -d ";" -f 2 file          #  get the fourth column and specified as ";"
+```
 
 ```
 ls -l  # check the file authority
