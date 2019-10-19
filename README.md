@@ -164,3 +164,9 @@ done
 ```
 [command]: `echo $val`　#print val;　`echo $val > file.txt`　#write file totaly;　`echo $val >> file.txt`　#write file after the tail
 
+### 2.3 Advanced sentence
+
+**2.2.1. if sentence**
+```
+if [condition1]; then
+command1
