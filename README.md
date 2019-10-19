@@ -165,8 +165,20 @@ done
 [command]: `echo $val`　#print val;　`echo $val > file.txt`　#write file totaly;　`echo $val >> file.txt`　#write file after the tail
 
 ### 2.3 Advanced sentence
-
-**2.2.1. if sentence**
 ```
-if [condition1]; then
-command1
+docker exec -it bioinfo_tsinghua bash    #enter docker
+docker exec -it -u root image_name bash　#enter root mode
+su test　　　　　　　　　　　　　　　　　　 #enter test mode
+ls dir -F | grep "/$"                 　 #show folder
+ls -al | grep "^d"                       #show folder
+ls -al | grep "^_"                       #show file
+awk 'pattern{commands}'                  #word editing and processing
+grep exon 1.gtf | awk '{print $5-$4+1}'|sort -n|tail -3 > 1.txt　　
+#search exon in 1.gtf, print the length, sort by number, get the last 3 rows and output it to 1.txt
+cat 1.gtf | awk '$3=="gene"{split($10, genename, ";"); name = genename[1]; gsub("\", "", name);print name, $5-$4+1}' | head
+#get file 1.gtf, find the gene rows, split the 10th column by ";", get the first in the splited array, replace the "\" and print the first 10 rows
+```
+
+
+
+
