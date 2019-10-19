@@ -105,6 +105,7 @@ tar -zcv -f f.tar.gz folder   #  tar folders(gzip format)
 tar -ztv -f folder.tar.gz     #  view the filename of folder.tar.gz
 tar -zxv -f folder.tar.gz     #  open and unzip folder.tar.gz
 ```
+---
 
 ## 2. Advanced Scripts for Linux
 ### 2.1 Linux bash
@@ -112,11 +113,32 @@ tar -zxv -f folder.tar.gz     #  open and unzip folder.tar.gz
 
 *STEP2:*　`chmod +x file1.sh`　# add the executable authority for the bash file
 
-*STEP3:*　edit the bash file
+*STEP3:*　edit the bash file　(e.g. our Linux homework)
 ```
 vi file1.sh　　　　　　　　　　 #  enter the editable view mode
+#!/bin/bash　　　　　　　　　　 #  state the executable sript
+CUR_DIR=`ls`　　　　　　　　 　 #  get the dirname and filename list
+#　clear the environment
+if [ -e filename.txt ];then
+        rm filename.txt
+fi
+if [ -e dirname.txt ];then
+        rm dirname.txt
+fi
+#　for loop to read the dirname and filename
+for val in $CUR_DIR
+do
+        # Output dirname
+        if [ -d $val ];then
+                echo "Dir: $val" >> dirname.txt
+        # Output filename
+        elif [ -f $val ];then
+                echo "File: $val" >> filename.txt
+        fi
+done
 
-
+exit 0
+```
 
 
 
