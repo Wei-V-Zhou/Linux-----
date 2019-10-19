@@ -166,9 +166,11 @@ done
 
 ### 2.3 Advanced sentence
 ```
-docker exec -it bioinfo_tsinghua bash    #enter docker
-docker exec -it -u root image_name bash　#enter root mode
-su test　　　　　　　　　　　　　　　　　　 #enter test mode
+docker exec -it bioinfo_tsinghua bash           #enter docker
+docker exec -it -u root contain_name bash　     #enter root mode
+su test　　　　　　　　　　　　　　　　　　        #enter test mode
+docker cp contain_name:/home/test/file C:\dir   #copy file to your computer
+docker cp C:\...\file contain_name:/home/test   #copy file to your virtualbox
 ls dir -F | grep "/$"                 　 #show folder
 ls -al | grep "^d"                       #show folder
 ls -al | grep "^_"                       #show file
