@@ -152,7 +152,7 @@ else
 command3
 fi
 ```
-[condition]: `-f filename`　#decide whether it is file;　`-d dirname`　#decide whether it is directory;　`-e file`　#decide whether exists file;　`-n file`　#decide whether file is not empty;　`-z file`　#decide whether file is empty;　`-eq`　#equal;　`-ne`　#not equal;　`-gt`　#greater than;　`-ge`　#greater than or equal to;　`-lt`　#less than;　`-le`　#less than or equal to
+**[condition]:** `-f filename`　#decide whether it is file;　`-d dirname`　#decide whether it is directory;　`-e file`　#decide whether exists file;　`-n file`　#decide whether file is not empty;　`-z file`　#decide whether file is empty;　`-eq`　#equal;　`-ne`　#not equal;　`-gt`　#greater than;　`-ge`　#greater than or equal to;　`-lt`　#less than;　`-le`　#less than or equal to
 
 **2.2.2. for sentence**
 ```
@@ -162,7 +162,7 @@ command1
 command2
 done
 ```
-[command]: `echo $val`　#print val;　`echo $val > file.txt`　#write file totaly;　`echo $val >> file.txt`　#write file after the tail
+**[command]:** `echo $val`　#print val;　`echo $val > file.txt`　#write file totaly;　`echo $val >> file.txt`　#write file after the tail
 
 ### 2.3 Advanced sentence
 ```
@@ -177,10 +177,7 @@ ls -al | grep "^_"                       #show file
 awk 'pattern{commands}'                  #word editing and processing
 grep exon 1.gtf | awk '{print $5-$4+1}'|sort -n|tail -3 > 1.txt　　
 #search exon in 1.gtf, print the length, sort by number, get the last 3 rows and output it to 1.txt
-cat 1.gtf | awk '$3=="gene"{split($10, genename, ";"); name = genename[1]; gsub("\", "", name);print name, $5-$4+1}' | head
-#get file 1.gtf, find the gene rows, split the 10th column by ";", get the first in the splited array, replace the "\" and print the first 10 rows
+cat 1.gtf | awk '$3=="gene"{split($10, genename, ";"); name = genename[1]; gsub("\"", "", name);print name, $5-$4+1}' | head
+#get file 1.gtf, find the gene rows, split the 10th column by ";", get the first in the splited array, replace the " and print the first 10 rows
 ```
-
-
-
 
