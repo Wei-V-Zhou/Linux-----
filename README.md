@@ -171,13 +171,18 @@ docker exec -it -u root contain_name bash　     #enter root mode
 su test　　　　　　　　　　　　　　　　　　        #enter test mode
 docker cp contain_name:/home/test/file C:\dir   #copy file to your computer
 docker cp C:\...\file contain_name:/home/test   #copy file to your virtualbox
-ls dir -F | grep "/$"                 　 #show folder
-ls -al | grep "^d"                       #show folder
-ls -al | grep "^_"                       #show file
-awk 'pattern{commands}'                  #word editing and processing
+ls dir -F | grep "/$"                 　        #show folder
+ls -al | grep "^d"                              #show folder
+ls -al | grep "^_"                              #show file
+awk 'pattern{commands}'                         #word editing and processing
 grep exon 1.gtf | awk '{print $5-$4+1}'|sort -n|tail -3 > 1.txt　　
 #search exon in 1.gtf, print the length, sort by number, get the last 3 rows and output it to 1.txt
 cat 1.gtf | awk '$3=="gene"{split($10, genename, ";"); name = genename[1]; gsub("\"", "", name);print name, $5-$4+1}' | head
 #get file 1.gtf, find the gene rows, split the 10th column by ";", get the first in the splited array, replace the " and print the first 10 rows
 ```
+However, I think the most fluent sentences we used are as follows:
 
+`clear`,　`exit`, or `docker exec -it bioinfo_tsinghua bash`...
+
+#THANKS FOR YOUR LISTENING!!!
+>Welcome to my github [https://github.com/Wei-V-Zhou] for further discussion
