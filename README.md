@@ -108,7 +108,7 @@ tar -zxv -f folder.tar.gz     #  open and unzip folder.tar.gz
 
 ## 2. Advanced Scripts for Linux
 ### 2.1 Linux bash
-#STEP1:#
+*STEP1:*
 
 
 
