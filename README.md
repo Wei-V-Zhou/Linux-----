@@ -1,4 +1,4 @@
-# 《Linux Experience for sharing with you》
+# 《Linux Experience for Sharing with You》
 
 > Software is like sex: It's better when it's free.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--- The father of Linux
@@ -184,5 +184,5 @@ However, I think the most fluent sentences we used are as follows:
 
 `clear`,　`exit`, or `docker exec -it bioinfo_tsinghua bash`...
 
-#THANKS FOR YOUR LISTENING!!!
->Welcome to my github [https://github.com/Wei-V-Zhou] for further discussion
+# THANKS FOR YOUR LISTENING!!!
+>Welcome to my github [Wei Zhou](https://github.com/Wei-V-Zhou) for further discussion
