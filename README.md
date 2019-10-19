@@ -140,7 +140,17 @@ done
 exit 0
 ```
 
+### 2.2 Control structure
 
+**2.2.1. if sentence**
+```
+if [condition1]; then
+command1
+elif [condition2]; then
+command2
+else
+command3
+fi
 
 
 
