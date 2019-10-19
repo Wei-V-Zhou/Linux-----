@@ -152,7 +152,16 @@ else
 command3
 fi
 ```
-[condition]: `-f filename`　#decide whether it is file;　`-d dirname`　#decide whether it is directory;　`-e file`      #decide whether exists file;　`-eq`　#equal;　`-ne`　#not equal;　`-gt`　#greater than;　`-ge`　#greater than or equal to;　`-lt`　#less than;　`-le`　#less than or equal to;
+[condition]: `-f filename`　#decide whether it is file;　`-d dirname`　#decide whether it is directory;　`-e file`　#decide whether exists file;　`-n file`　#decide whether file is not empty;　`-z file`　#decide whether file is empty;　`-eq`　#equal;　`-ne`　#not equal;　`-gt`　#greater than;　`-ge`　#greater than or equal to;　`-lt`　#less than;　`-le`　#less than or equal to;
 
+--
+**2.2.2. for sentence**
+```
+for var in $list
+do
+command1
+command2
+done
+```
 
 
