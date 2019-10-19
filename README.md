@@ -3,13 +3,13 @@
 > Software is like sex: It's better when it's free.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--- The father of Linux
 
-.<div align=center><img src="https://github.com/Wei-V-Zhou/Linux-scripts-study/blob/master/1.jpeg" width="200" height="250" /></div>
+<div align=center><img src="https://github.com/Wei-V-Zhou/Linux-scripts-study/blob/master/1.jpeg" width="200" height="250" /></div>
 
 **Written in Front:**
 
 **"The following scripts of Linux are what I have learned after class. ***BUT***, I think it's very necessary for me to share them with u."**
 
-.<div align=center><img src="https://github.com/Wei-V-Zhou/Linux-scripts-study/blob/master/5.jpg" width="220" height="165" /></div>
+<div align=center><img src="https://github.com/Wei-V-Zhou/Linux-scripts-study/blob/master/5.jpg" width="220" height="165" /></div>
 
 ---
 
@@ -192,7 +192,7 @@ However, I think the most fluent sentences we used are as follows:
 
 `clear`,　`exit`, or `docker exec -it bioinfo_tsinghua bash`...
 
-.<div align=center><img src="https://github.com/Wei-V-Zhou/Linux-scripts-study/blob/master/7.jpg" width="450" height="287" /></div>
+.<div align=center><img src="https://github.com/Wei-V-Zhou/Linux-scripts-study/blob/master/7.jpg" width="300" height="192" /></div>
 
 ## THANKS FOR YOUR LISTENING!!!
 >Welcome to my github webpage [Wei-V-Zhou](https://github.com/Wei-V-Zhou) for further discussion
