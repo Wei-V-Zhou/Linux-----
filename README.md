@@ -9,6 +9,7 @@
 
 **"The following scripts of Linux are what I have learned after class. ***BUT***, I think it's very necessary for me to share them with u."**
 <div align=center><img src="https://github.com/Wei-V-Zhou/Linux-scripts-study/blob/master/5.jpg" width="220" height="165" /></div>
+
 ---
 
 ## 1. Basic Scripts for Linux
@@ -109,6 +110,7 @@ tar -ztv -f folder.tar.gz     #  view the filename of folder.tar.gz
 tar -zxv -f folder.tar.gz     #  open and unzip folder.tar.gz
 ```
 <div align=center><img src="https://github.com/Wei-V-Zhou/Linux-scripts-study/blob/master/4.jpg" width="288" height="180" /></div>
+
 ---
 
 ## 2. Advanced Scripts for Linux
@@ -188,6 +190,7 @@ However, I think the most fluent sentences we used are as follows:
 
 `clear`,　`exit`, or `docker exec -it bioinfo_tsinghua bash`...
 <div align=center><img src="https://github.com/Wei-V-Zhou/Linux-scripts-study/blob/master/7.jpg" width="300" height="192" /></div>
+
 ---
 ## THANKS FOR YOUR LISTENING!!!
 >Welcome to my github webpage [Wei-V-Zhou](https://github.com/Wei-V-Zhou) for further discussion
