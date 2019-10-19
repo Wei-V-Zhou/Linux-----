@@ -95,7 +95,9 @@ sort -k 4 file                #  sort the fourth row with ASCII character
 sort -k 4 -n file             #  sort the fourth row with ASCII number
 uniq -c file                  #  remove duplication and compute the value
 gzip file / gunzip file.gz    #  zip/unzip file
-tar -zcv -f folder
+tar -zcv -f f.tar.gz folder   #  tar folders(gzip format)
+tar -ztv -f folder.tar.gz     #  view the filename of folder.tar.gz
+tar -zxv -f folder.tar.gz     #  open and unzip folder.tar.gz
 ```
 
 
