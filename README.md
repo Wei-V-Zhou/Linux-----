@@ -47,7 +47,7 @@ The following scripts of Linux are what I have learned after class. ***BUT***, I
 **view** file conversely:`tac file1`&nbsp;&nbsp;#  view all file conversely
 
 ***(2)***
-**view file added row number:**
+**view file with row number:**
 ```
 nl file1                      #  view rows including null rows
 nl -b a file1                 #  view rows with null rows
@@ -56,7 +56,7 @@ nl -b a -n rz -w 3 file1      #  view rows with null rows and total 3 numbers
 ```
 
 ***(3)***
-**view file added turned pages:**
+**view file with page turning:**
 ```
 more file1                    #  view files and turn pages
 ## enter: next row; space: next page; /text: find text next;
@@ -80,13 +80,24 @@ tail -n 20 file1              #  select files with the last 20 rows
 **edit file:**
 ```
 cut -f 4 file                 #  get the fourth column
-cut -d ";" -f 2 file          #  get the fourth column and specified as ";"
+cut -d ";" -f 4 file          #  get the fourth column and specified as ";"
 sed 's/x/X/g' file            #  replace lower-case letter with captital letter in file
 sed -n 'start, end p' file    #  print columns from start to end in file 
 grep 'HELLO' file             #  search every row containing HELLO in file
 grep -r 'HELLO' file          #  search every row without HELLO in file
 grep -w 'HELLO' file          #  search every row only with HELLO (without HELLOWORLD) in file
 ```
+
+***(6)***
+**arrange file:**
+```
+sort -k 4 file                #  sort the fourth row with ASCII character
+sort -k 4 -n file             #  sort the fourth row with ASCII number
+uniq -c file                  #  remove duplication and compute the value
+gzip file / gunzip file.gz    #  zip/unzip file
+tar -zcv -f folder
+```
+
 
 ```
 ls -l  # check the file authority
