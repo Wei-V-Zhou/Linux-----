@@ -106,11 +106,13 @@ tar -ztv -f folder.tar.gz     #  view the filename of folder.tar.gz
 tar -zxv -f folder.tar.gz     #  open and unzip folder.tar.gz
 ```
 
-
-```
-ls -l  # check the file authority
-```
-
 ## 2. Advanced Scripts for Linux
+### 2.1 Linux bash
+#STEP1:#
+
+
+
+
+
 
 
