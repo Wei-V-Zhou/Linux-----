@@ -3,7 +3,7 @@
 > Software is like sex: It's better when it's free.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--- The father of Linux
 
-![](https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=Linux%E4%B9%8B%E7%88%B6&step_word=&hs=0&pn=15&spn=0&di=19910&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=2&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=-1&cs=246692954%2C730255731&os=164795414%2C3964545283&simid=3497799615%2C472309110&adpicid=0&lpn=0&ln=289&fr=&fmq=1571493507014_R&fm=result&ic=&s=undefined&hd=&latest=&copyright=&se=&sme=&tab=0&width=&height=&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=http%3A%2F%2Fpic.36krcnd.com%2F201904%2F15024156%2Fwp44be0n4rsizr2o.jpeg!1200&fromurl=ippr_z2C%24qAzdH3FAzdH3Fnmh6_z%26e3Bv54AzdH3FrAzdH3Fc8l90dl%3Fhp4_f576vj%3Dujj1&gsm=&rpstart=0&rpnum=0&islist=&querylist=&force=undefined)
+![](https://)
 
 **Written in Front:**
 
