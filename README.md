@@ -111,7 +111,7 @@ tar -ztv -f folder.tar.gz     #  view the filename of folder.tar.gz
 tar -zxv -f folder.tar.gz     #  open and unzip folder.tar.gz
 ```
 
-.<div align=center><img src="https://github.com/Wei-V-Zhou/Linux-scripts-study/blob/master/6.jpg" width="288" height="180" /></div>
+.<div align=center><img src="https://github.com/Wei-V-Zhou/Linux-scripts-study/blob/master/4.jpg" width="288" height="180" /></div>
 
 ---
 
