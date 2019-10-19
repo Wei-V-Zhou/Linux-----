@@ -83,6 +83,9 @@ cut -f 4 file                 #  get the fourth column
 cut -d ";" -f 2 file          #  get the fourth column and specified as ";"
 sed 's/x/X/g' file            #  replace lower-case letter with captital letter in file
 sed -n 'start, end p' file    #  print columns from start to end in file 
+grep 'HELLO' file             #  search every row containing HELLO in file
+grep -r 'HELLO' file          #  search every row without HELLO in file
+grep -w 'HELLO' file          #  search every row only with HELLO (without HELLOWORLD) in file
 ```
 
 ```
