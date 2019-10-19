@@ -152,9 +152,7 @@ else
 command3
 fi
 ```
-[condition]: -f filename　#decide whether it is file;　-d dirname　#decide whether it is directory;
-
-　　　　　　　-e file      #decide whether exists file;
+[condition]: `-f filename`　#decide whether it is file;　`-d dirname`　#decide whether it is directory;　`-e file`      #decide whether exists file;
 
 
 
