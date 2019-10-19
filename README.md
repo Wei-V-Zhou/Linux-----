@@ -108,7 +108,14 @@ tar -zxv -f folder.tar.gz     #  open and unzip folder.tar.gz
 
 ## 2. Advanced Scripts for Linux
 ### 2.1 Linux bash
-*STEP1:*
+*STEP1:*　`touch file1.sh`　# make a new bash file
+
+*STEP2:*　`chmod +x file1.sh`　# add the executable authority for the bash file
+
+*STEP3:*　edit the bash file
+```
+vi file1.sh　　　　　　　　　　 #  enter the editable view mode
+
 
 
 
