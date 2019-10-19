@@ -192,5 +192,7 @@ However, I think the most fluent sentences we used are as follows:
 
 `clear`,　`exit`, or `docker exec -it bioinfo_tsinghua bash`...
 
+.<div align=center><img src="https://github.com/Wei-V-Zhou/Linux-scripts-study/blob/master/7.jpg" width="450" height="287" /></div>
+
 ## THANKS FOR YOUR LISTENING!!!
 >Welcome to my github webpage [Wei-V-Zhou](https://github.com/Wei-V-Zhou) for further discussion
