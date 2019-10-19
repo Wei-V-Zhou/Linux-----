@@ -9,12 +9,16 @@ The following scripts of Linux are what I have learned after class. ***BUT***, I
 ---
 
 ## 1. Basic Scripts for Linux
-### 1.1 Dir and File Operation
+### 1.1 Direcory and File Operation
 **1.1.1 Operate directory**
 
 `cd ~/linux`&nbsp;&nbsp;#  using `cd ~/file` is very convenient for entering into ***any directory***
 
 `cd ../`&nbsp;&nbsp;#  return the directory up one level
+
+`ls -l`　#　view the info of file authority: -rwx(4+2+1)-rw-r(owner-usergroup-world)
+
+`chmod -R 765 file`　#　change the file authority
 
 `ls -lh file`　#　view the file size;　　`wc -l file`　#　view the file rownumber
 
