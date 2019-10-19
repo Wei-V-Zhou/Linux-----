@@ -7,7 +7,10 @@
 
 **Written in Front:**
 
-"The following scripts of Linux are what I have learned after class. ***BUT***, I think it's very necessary for me to share them with u." 
+**"The following scripts of Linux are what I have learned after class. ***BUT***, I think it's very necessary for me to share them with u."**
+
+.<div align=center><img src="https://github.com/Wei-V-Zhou/Linux-scripts-study/blob/master/5.jpg" width="200" height="250" /></div>
+
 ---
 
 ## 1. Basic Scripts for Linux
