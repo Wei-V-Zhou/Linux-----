@@ -16,6 +16,8 @@ The following scripts of Linux are what I have learned after class. ***BUT***, I
 
 `cd ../`&nbsp;&nbsp;#  return the directory up one level
 
+`ls -lh file`　　#　　view the file size;　　`wc -l file`　　#　view the file rownumber
+
 **1.1.2. Operate file_folder & file**
 
 ***(1)***
