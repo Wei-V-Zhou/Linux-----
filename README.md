@@ -1,3 +1,6 @@
+**The division of work:*
+周威、张栋源：分享框架和主题讨论；张贻锋、周威：代码撰写；田彩平、郭彦南：文字编排和美化
+
 # 《Linux Experience to Share with You》
 
 > Software is like sex: It's better when it's free.<br>
